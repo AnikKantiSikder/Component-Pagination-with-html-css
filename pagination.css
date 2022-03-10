@@ -1,0 +1,65 @@
+/* MAIN COLOR: #087F5B
+GREY COLOR: #343a40 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #343a40;
+    line-height: 1;
+}
+
+.pagination {
+    width: 500px;
+    /* background-color: black; */
+    margin: 100px auto;
+    padding: 32px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-items: center;
+    gap: 24px;
+    color: #343a40;
+}
+
+.links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a:hover {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: #087F5B;
+    color: #fff;
+}
+
+.btn {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+}
+
+.btn:hover {
+    background-color: #087F5B;
+    color: #fff;
+}
+.icon {
+    height: 24px;
+    width: 24px;
+}
